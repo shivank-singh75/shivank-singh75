@@ -16,24 +16,91 @@ Hi! I'm **Shivank Singh**, a passionate **Senior Software Engineer** with a stro
 ## 📌 Featured Projects
 
 ### 🧠 [Excelas (formerly Pocket Teacher)](https://app.excelas.ai/login)
-AI-powered exam assessment platform for automated handwritten answer sheet evaluation.  
-**Role:** Team Lead & Full-Stack Dev  
+**Overview:** AI-powered platform that evaluates handwritten exam sheets using OCR and AI.
+
+**Key Features:**
+- Automated OCR-based answer sheet evaluation
+- Teacher & student dashboards with progress tracking
+- Performance analytics & AI-driven feedback
+- Multi-language support and scalable architecture
+- Secure image storage and optimized retrieval
+
+**Contributions:**
+- Led backend & AI module integration (Laravel + Python OCR)
+- Created secure APIs and real-time result pipelines
+- Developed role-based user and session management
+- Oversaw testing and model training with OCR experts
+
+**Role:** Team Lead & Full-Stack Developer  
 **Stack:** `Laravel`, `Node.js`, `Python (OCR/AI)`, `PostgreSQL`, `Vue.js`
 
 ---
 
 ### 🏥 Pacific Health Agentic AI System
-AI-driven chatbot platform for healthcare with microservices (`Master`, `Core`, `Booking`, `FAQ`).  
-Queries routed to dynamic AI agents based on domain & intent.  
+**Overview:** Intelligent AI-driven chatbot for healthcare, powered by dynamic domain-specific agents.
+
+**Key Features:**
+- Multiple AI agents (Master, Core, Booking, FAQ)
+- Integration with OpenAI/Anthropic APIs
+- Context-aware conversation flow with fallback logic
+- Real-time intent classification & entity detection
+- Logging and HIPAA-compliant communication
+
+**Contributions:**
+- Designed Fastify microservices & dynamic intent router
+- Integrated LLMs and token cost optimization
+- Built conversation memory and fallback services
+- Secured APIs with domain-level access and scopes
+
 **Role:** Senior Full-Stack Developer  
 **Stack:** `Node.js (Fastify)`, `PostgreSQL`, `OpenAI`, `Anthropic`, `Microservices`
 
 ---
 
-### 🏫 [Schoolzpro ERP & CRM](https://smarya.erp.schoolzpro.app)  
-Comprehensive school management system with curriculum, lead, and operations modules.  
+### 🏫 [Schoolzpro ERP](https://smarya.erp.schoolzpro.app)
+**Overview:** A comprehensive school operations management system designed for school administrators to streamline academic and administrative processes.
+
+**Key Features:**
+- Onboarding and student registration modules
+- Fee management with custom fee structures and payment gateways
+- Exam scheduler and result generation
+- Reports module for academic and financial summaries
+- Role-based access and multi-tenant architecture
+- Notification system via email and SMS
+
+**Contributions:**
+- Designed and developed microservices: onboarding, student, fee-management, payment, reports, exam, and notifications
+- Integrated Laravel with dynamic workflow engines
+- Built bulk import/export tools for student and fee data
+- Handled security rules and tenant-based access control
+- Optimized REST APIs and query performance
+
 **Role:** Backend Architect  
 **Stack:** `Laravel`, `Node.js`, `MySQL`, `PostgreSQL`, `Microservices`
+
+---
+
+### 🧲 [Schoolzpro CRM](https://crm.schoolzpro.net.in)
+**Overview:** A dedicated CRM solution for managing leads, campaigns, user onboarding, and sales workflows for schools.
+
+**Key Features:**
+- Centralized user and school onboarding
+- Lead management with status pipelines
+- Deals and campaign management with assignment tracking
+- Real-time notifications and follow-ups
+- CRM dashboard with lead and deal analytics
+- Settings microservice for dynamic configurations
+
+**Contributions:**
+- Architected and developed microservices: user + onboarding, lead, deals, settings, campaigns, notifications
+- Built APIs for third-party lead ingestion
+- Developed campaign automation workflows
+- Designed scalable dashboard widgets with analytics APIs
+- Integrated role-based controls and tracking
+
+**Role:** Backend Architect  
+**Stack:** `Laravel`, `Node.js`, `MySQL`, `PostgreSQL`, `Microservices`
+
 
 ---
 
@@ -45,14 +112,38 @@ Government TB patient tracking portal under the National TB Elimination Program.
 ---
 
 ### 🍽️ Tableside
-Multi-vendor restaurant system supporting dine-in, delivery, pickup & cloud printing.  
+**Overview:** Multi-vendor restaurant solution for dine-in, delivery, and order management.
+
+**Key Features:**
+- Order types: dine-in, pickup, and delivery
+- Admin/vendor dashboards & real-time order flow
+- Printer integration for kitchen automation
+- Discounts, tax management, and loyalty programs
+
+**Contributions:**
+- Developed backend order processing & print services
+- Built payout calculation and reporting
+- Set up vendor-specific customizations and configs
+
 **Role:** Backend Lead  
 **Stack:** `PHP`, `Laravel`, `Node.js`, `PostgreSQL`, `Microservices`
 
 ---
 
-### 📦 [iLoggerz](https://admin.iloggerz.com)  
-IoT platform for logging and monitoring sensor data with real-time updates.  
+### 📦 [iLoggerz](https://admin.iloggerz.com)
+**Overview:** Real-time IoT device monitoring platform for sensors and data loggers.
+
+**Key Features:**
+- Real-time dashboards with alerts and logs
+- Offline mode with auto-syncing
+- SMS/Email triggers on threshold breach
+- Device provisioning and remote commands
+
+**Contributions:**
+- Built real-time APIs and MQTT handlers
+- Designed dashboard data aggregation and cache
+- Created remote command APIs for edge devices
+
 **Role:** Backend Lead  
 **Stack:** `Laravel`, `Node.js`, `Arduino`, `MySQL`
 
@@ -115,44 +206,24 @@ Ashram management system with offline/online sync and digital passes.
 
 ---
 
-## 🎥 LegalSquare & Meetio – Secure Video Conferencing Platforms
+### 🎥 LegalSquare & Meetio – Secure Video Conferencing Platforms
+**Overview:** Real-time secure communication platforms designed for legal and public users.
+
+**Key Features:**
+- WebRTC-based video/audio conferencing
+- Confidential & recorded sessions with access control
+- Scheduling and calendar integrations
+- Role-based login (Lawyers, Admins, General Public)
+- Real-time messaging and alerts
+
+**Contributions:**
+- Developed Laravel APIs and Vue components
+- Integrated meeting management, user roles & recordings
+- Created scalable architecture with load testing
+- Assisted in bug fixes and deployment setup
 
 **Role:** Full-Stack Developer  
 **Tech Stack:** `Laravel`, `Vue.js`, `WebRTC`, `MySQL`
-
-### 📌 Overview
-
-Worked as a core developer on a secure, scalable video conferencing system with two tailored products:
-
-1. **LegalSquare** – Designed for Australian legal professionals to conduct secure, remote legal proceedings.
-2. **Meetio** – A public-facing version for general users offering reliable real-time communication.
-
----
-
-### 🔐 Key Features
-
-- 🔴 **Video & Audio Conferencing** – Real-time meetings using WebRTC.
-- 🎥 **Session Recording** – Support for saving conference sessions securely.
-- 🔐 **Confidential Recordings** – Access-controlled recordings for legal use cases.
-- 📅 **Meeting Scheduler** – Users can plan and manage upcoming conferences.
-- 🧑‍⚖️ **Role-Based Access** – User roles for lawyers, clients, and admins.
-- 🔔 **Notifications** – Real-time alerts via email and in-app messages.
-
----
-
-### 💻 My Contributions
-
-- Developed reusable Vue.js components for the conferencing UI.
-- Integrated Laravel APIs with real-time WebRTC features.
-- Implemented backend logic for session creation, participant handling, and recordings.
-- Assisted in testing and debugging across both LegalSquare and Meetio environments.
-- Contributed to data handling, UI workflows, and security patches.
-
----
-
-### 🏷️ Outcome
-
-Both platforms enabled efficient, secure, and compliant video conferencing. LegalSquare became a trusted tool for legal professionals in Australia, while Meetio served a broader audience for public virtual meetings.
 
 ---
 
