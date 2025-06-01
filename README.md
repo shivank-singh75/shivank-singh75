@@ -156,11 +156,26 @@ Scholarship & funding portal for the career college sector.
 
 ---
 
-### 🛠️ SCM System  
-Supply Chain Management system for tracking inventory and logistics.  
-**URL:** [https://scm-staging.teamlaravel.com/login](https://scm-staging.teamlaravel.com/login)  
-**Role:** Full-Stack Developer  
-**Stack:** `Laravel`, `Node.js`, `PostgreSQL`
+### 🛠️ [SCM System](https://scm-staging.teamlaravel.com/login)  
+**Overview:**  
+Enterprise-grade Supply Chain Management system for tracking inventory, procurement, logistics, and production.
+
+**Key Features:**
+- Inventory & purchase order management  
+- Supplier onboarding and logistics tracking  
+- Production scheduling & returns handling  
+- Role-based access and compliance reports  
+- Notification system and reporting dashboard  
+
+**Contributions:**
+- Led backend team and development efforts  
+- Designed PostgreSQL schema and Laravel APIs  
+- Built modules for orders, inventory, returns, and alerts  
+- Integrated reporting, authentication, and user access controls  
+
+**Role:** Full-Stack Developer & Team Lead  
+**Stack:** `Laravel`, `PostgreSQL`
+
 
 ---
 
