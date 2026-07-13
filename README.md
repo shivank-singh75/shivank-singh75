@@ -104,6 +104,29 @@ Hi! I'm **Shivank Singh**, a passionate **Senior Software Engineer** with a stro
 
 ---
 
+### 🤖 Agent CRM & Medicare AI Voice Platform
+**Overview:** AI-integrated CRM platform for lead management, campaign calling, voice automation, and healthcare-focused conversational workflows.
+
+**Key Features:**
+- Multi-tenant CRM backend with lead, campaign, meeting, call-log, and notification modules
+- AI inbound and outbound calling flows with Twilio and Vapi integrations
+- Feature microservice: `medicare-ai-core-ms` for healthcare voice-agent orchestration, lead capture, meeting flow, and CRM handoff
+- RAG-backed healthcare assistance using `medicare-ai-rag-service` for domain-aware answers
+- Campaign phone-number routing, caller-ID handling, and tenant-aware CRM workflows
+- Postman/API documentation support for lead, meeting, campaign, and calling flows
+
+**Contributions:**
+- Built and maintained Node.js + TypeScript microservices across the Agent CRM backend
+- Developed AI inbound lead creation, duplicate handling, and meeting visibility workflows
+- Integrated Vapi, Twilio, OpenAI, Redis, Prisma, and PostgreSQL for real-time voice automation
+- Connected `medicare-ai-core-ms` with `medicare-ai-rag-service` to support RAG-first healthcare conversations
+- Implemented tenant-aware defaults, campaign lookup, call-session tracking, and API response shaping
+
+**Role:** Senior Backend & AI Integration Developer  
+**Stack:** `Node.js`, `TypeScript`, `Express`, `PostgreSQL`, `Prisma`, `Redis`, `Twilio`, `Vapi`, `OpenAI`, `RAG`, `Microservices`
+
+---
+
 ### 🏥 [ManageTBIndia (NTEP)](https://managetbindia.ntep.in/login)
 Government TB patient tracking portal under the National TB Elimination Program.  
 **Role:** Full-Stack Developer & Lead  
